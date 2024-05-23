@@ -1,0 +1,276 @@
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: auto;
+}
+
+
+
+.head{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    padding: 20px;
+    border-bottom:3px dotted purple;
+}
+.head h2{
+    width: 18vw;
+    height: 25px;
+    font-size: 18px;
+    background-color: rgb(178, 32, 178);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.head p{
+   text-align: center;
+}
+
+#meet{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#lead{
+    width: 15vw;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(178, 32, 178);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.leadership{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    flex-wrap:wrap-reverse;
+    gap: 80px;
+    width: 40vw;
+    justify-content:center;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile p{
+   font-weight: 100;
+   font-style: italic;
+   color: purple;
+   font-size: 12px;
+}
+.Development{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.Development .profiles{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    flex-wrap:wrap;
+    gap: 80px;
+    width: 50vw;
+    justify-content:center;
+}
+
+
+
+
+
+.ribbon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    transform: scale(-1);
+    width:30px;
+    height: 40px;
+}
+.ribbon1{
+    position: absolute;
+    top: 103vh;
+    left: 0px;
+    display: flex;
+    /* transform: scale(-1); */
+    width:30px;
+    height: 40px;
+}
+.ribbon2{
+    position: absolute;
+    top: 165vh;
+    right: 0px;
+    display: flex;
+    transform: scale(-1);
+    width:30px;
+    height: 40px;
+}
+.ribbon3{
+    position: absolute;
+    top: 224vh;
+    left: 0px;
+    display: flex;
+    /* transform: scale(-1); */
+    width:30px;
+    height: 40px;
+}
+
+
+@media(width<1000px) {
+    .head h2{
+        width: 35vw;
+        height: 30px;
+        font-size: 12px;
+        background-color: rgb(178, 32, 178);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .head p{
+        text-align: center;
+        width: 70vw;
+     }
+    
+
+     #lead{
+        width: 60vw;
+        height: 30px;
+        font-size: 14px;
+        background-color: rgb(178, 32, 178);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .ribbon1{
+        position: absolute;
+        top: 147vh;
+        left: 0px;
+        display: flex;
+        /* transform: scale(-1); */
+        width:30px;
+        height: 40px;
+    }
+    .ribbon2{
+        position: absolute;
+        top: 286vh;
+        right: 0px;
+        display: flex;
+        transform: scale(-1);
+        width:30px;
+        height: 40px;
+    }
+    .ribbon3{
+        position: absolute;
+        top: 419vh;
+        left: 0px;
+        display: flex;
+        /* transform: scale(-1); */
+        width:30px;
+        height: 40px;
+    }
+}
+
+@media(width<400px) {
+    .head h2{
+        width: 35vw;
+        height: 30px;
+        font-size: 12px;
+        background-color: rgb(178, 32, 178);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .head p{
+        text-align: center;
+        width: 70vw;
+     }
+    
+
+     #lead{
+        width: 65vw;
+        height: 30px;
+        font-size: 14px;
+        background-color: rgb(178, 32, 178);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+        border-radius: 7px;
+    }
+
+
+    .ribbon1{
+        position: absolute;
+        top: 227vh;
+        left: 0px;
+        display: flex;
+        /* transform: scale(-1); */
+        width:20px;
+        height: 20px;
+    }
+    .ribbon2{
+        position: absolute;
+        top: 468vh;
+        right: 0px;
+        display: flex;
+        transform: scale(-1);
+        width:20px;
+        height: 20px;
+    }
+    .ribbon3{
+        position: absolute;
+        top: 704vh;
+        left: 0px;
+        display: flex;
+        /* transform: scale(-1); */
+        width:25px;
+        height: 30px;
+    }
+}
